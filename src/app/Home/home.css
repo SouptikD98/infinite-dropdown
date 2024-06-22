@@ -1,0 +1,33 @@
+.custom-gradient {
+  background: linear-gradient(
+      to bottom,
+      #E88D67 0%,
+      #E88D67 40%,
+      #F3F7EC 40%,
+      #F3F7EC 70%,
+      #006989 70%,
+      #006989 85%,
+      #005C78 85%,
+      #005C78 100%
+  );
+}
+
+textarea{
+  resize: none;
+}
+
+
+
+.json_input_textarea::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.json_input_textarea::-webkit-scrollbar-track {
+  background: rgb(231, 222, 204); 
+  border-radius: 10px;       /* color of the tracking area */
+}
+.json_input_textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(124, 126, 101);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(231, 222, 204);;  /* creates padding around scroll thumb */
+}
