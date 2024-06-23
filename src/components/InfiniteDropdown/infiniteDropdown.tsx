@@ -8,8 +8,8 @@ import {
 import SubDropdown from "../SubDropdown/subDropdown";
 
 interface InfiniteDropdownProps {
-  // items: { label: string; options: any[] }[];
-  items:any
+  items: { label: string; options: any[] }[];
+  // items:any
 }
 
 const InfiniteDropdown = (props: InfiniteDropdownProps) => {
